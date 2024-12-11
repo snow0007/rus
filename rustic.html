@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rustic Roots</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #F2E6D8, #FFFFFF); /* สีพื้นหลังไล่จากน้ำตาลอ่อนถึงขาว */
+    color: #333;
+    font-size: 16px; /* ขนาดตัวหนังสือที่เหมาะสม */
+    line-height: 1.5; /* ระยะห่างของบรรทัด */
+}
+   h1.hero-title {
+    color: #4A4A4A; /* สีเทาอ่อนๆ ที่ให้ความรู้สึกอบอุ่นและสง่างาม */
+    font-size: 70px; /* ขนาดตัวอักษรที่โดดเด่น */
+    font-family: 'Poppins', sans-serif; /* ฟอนต์ที่สวยงามและทันสมัย */
+    text-align: center; /* จัดกึ่งกลาง */
+    margin: 0; /* ไม่มีช่องว่างรอบๆ */
+}
+    p { 
+        width: 800px;
+        margin-left: 10px;
+        margin-right: 100px;
+        font-size: 18px; /* เพิ่มขนาดตัวหนังสือ */
+        line-height: 1.6; /* เพิ่มระยะห่างระหว่างบรรทัด */
+    }
+    .hero-subtitle {
+        font-size: 25px;
+    }
+    .navbar {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: flex-end;
+        padding: 20px;
+    }
+    .navbar ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+    }
+    .navbar li {
+        margin: 0 10px;
+    }
+    .navbar a {
+        text-decoration: none;
+        color: #2E3A59;
+        font-weight: bold;
+        padding: 10px 15px;
+        transition: background-color 0.3s ease;
+    }
+    .navbar a:hover {
+        background-color: #f0f0f0;
+    }
+	.photo1{
+	    width: 800px;
+        margin-left: 10px;
+        margin-right: 100px;
+	}
+</style>
+<body>
+    <header class="hero">
+        <div class="hero-overlay">
+            <h1 class="hero-title">Rustic Roots</h1>
+            <p class="hero-subtitle"></p>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>คาเฟ่ที่อบอวลไปด้วยกลิ่นอายของความเรียบง่ายและความอบอุ่นในสไตล์ rustic ที่แสนสบาย ร้านของเราตั้งอยู่ท่ามกลางธรรมชาติอันเงียบสงบ เหมาะสำหรับผู้ที่ต้องการพักผ่อนจากความวุ่นวายในชีวิตประจำวัน มาเพลิดเพลินกับเครื่องดื่มและขนมอร่อยในบรรยากาศอบอุ่นเหมือนอยู่บ้าน รับรองว่าจะทำให้คุณรู้สึกผ่อนคลายในทุกช่วงเวลา</p>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Custom Event Planning</li>
+                <li>Exclusive Catering Options</li>
+                <li>Personalized Decor Services</li>
+                <li>Tailored Party Themes and Ideas</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <img src="SHO.jpg" alt="Custom Event Setup" style="width: 100%; max-width: 1000px;">
+                <img src="OIP.jpg" alt="Themed Table Setup"style="width: 100%; max-width: 700px">
+                <img src="o1.jpg" alt="Custom Party Atmosphere"style="width: 100%; max-width: 700px">
+                <img src="o2.jpg" alt="Personalized Decor"style="width: 100%; max-width: 310px">
+                <img src="o3.jpg" alt="Rustic Themed Arrangement">
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Email: your_email@yourdomain.com</p>
+            <p>Phone: 090-924-6341</p>
+            <p>Follow us on <a href="#">Instagram</a> and <a href="#">Facebook</a></p>
+        </div>
+    </footer>
+	<a href="https://line.me/ti/p/@153ujkwj" target="_blank">
+    <img src="line.png" alt="LINE Logo" style="width: 50px; height: 50px;">
+</a>
+
+</body>
